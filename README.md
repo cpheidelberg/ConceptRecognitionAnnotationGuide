@@ -7,6 +7,8 @@ Most important:
 Never forget to glick the save-icon before closing the annotation-we-page! 
 Otherwise You have to do all the annotations again.
 
+![img.png](data/img_save.png)
+
 If you want to do a brake, hit the save icon and close the web-browser. 
 If you open your annotation-web-page again, it will continue where you left.
 
