@@ -1,5 +1,17 @@
 # User Guide for Concept Recognition Annotation
 
+Most important:
+
+## Save & Pause your annotation session:
+
+Never forget to glick the save-icon before closing the annotation-we-page! 
+Otherwise You have to do all the annotations again.
+
+If you want to do a brake, hit the save icon and close the web-browser. 
+If you open your annotation-web-page again, it will continue where you left.
+
+## Two Annotation phases
+
 Our KBC-concept recognition pipeline works like this:
 
 ![img.png](data/img.png)
@@ -30,10 +42,3 @@ If the terminology does not contain any concept that fits to the given text exce
  click on accept without selecting one of the suggested concepts. 
 (or click on reject, it doesn't really matter?).
 
-### Save & Pause your annotation session:
-
-Never forget to glick the save-icon before closing the annotation-we-page! 
-Otherwise You have to do all the annotations again.
-
-If you want to do a brake, hit the save icon and close the web-browser. 
-If you open your annotation-web-page again, it will continue where you left.
