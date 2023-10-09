@@ -1,7 +1,5 @@
 # User Guide for Concept Recognition Annotation
 
-Most important:
-
 ## Save & Pause your annotation session:
 
 Never forget to glick the save-icon before closing the annotation-we-page! 
