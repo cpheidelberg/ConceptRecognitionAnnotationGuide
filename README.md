@@ -29,11 +29,18 @@ Each sentence of a report is presented to the annotator one after the other. Eac
 
 The annotator has to check the pre-annotated sentence and correct it if necessary.
 Make sure that all medical terms in the sentence are marked at the end. 
--Even the ones which might not be present in the KBC or SNOMED terminology!
+
+## NER-Annotation-Rules:
+
+- Do not highlight numbers, but please highlight codes like ICD's or tumor stagings.
+- Please highlight each medical term, also the ones which are not present in the KBC or SNOMED or any other terminology.
+- prefer longer, combined medical terms over shorter ones.
+  - e.g.prefer _[scarred globally]_ = one entity over _[scarred] [globally]_ = 2 entities.
+  - reason: The chance that the KBC-concept-linker finds a fitting KBC concept is higher for longer entities.
 
 ## Behavior of the buttons in the web interface:
 
-This are the buttons in the web interface:
+These are the buttons of the web interface:
 
 ![img_buttons.png](data/img_buttons.png)
 
