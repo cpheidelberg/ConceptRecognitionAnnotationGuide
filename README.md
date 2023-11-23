@@ -27,8 +27,9 @@ It is a binary NER model which simply marks sections in the texts, which might b
 
 Each sentence of a report is presented to the annotator one after the other. Each presented sentence is already pre-annotated by a simple NER model.
 
-The annotator has to check the pre-annotated sentence and correct it if necessary.
-Make sure that all medical terms in the sentence are marked at the end. 
+The annotator has to check the pre-annotated sentence and **adjust the yellow highlighted sections**, if necessary.
+
+Make sure that **all medical terms in the sentence are highlighted correctly** at the end. You can also remove or create new highlighted sections using your mouse.
 
 ## NER-Annotation-Rules:
 
