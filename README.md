@@ -18,14 +18,36 @@ Our KBC-concept recognition pipeline works like this:
 
 So we have 2 annotation phases:
 
-### Phase 1) NER-Annotation:
+## Phase 1) NER-Annotation:
 
-First, we have a NER (Named Entity Recognition) Phase, where we simply search _medical terms_ in the tests.
+First, we have a NER (Named Entity Recognition) Phase, where we simply search entities (_medical terms_) in the texts.
 It is a binary NER model which simply marks sections in the texts, which might be a medical concept.
 
 ![img_ner.png](data/img_ner.png)
 
-### Phase 2) NEL-Annotation:
+Each sentence of a report is presented to the annotator one after the other. Each presented sentence is already pre-annotated by a simple NER model.
+
+The annotator has to check the pre-annotated sentence and correct it if necessary.
+Make sure that all medical terms in the sentence are marked at the end. 
+-Even the ones which might not be present in the KBC or SNOMED terminology!
+
+## Behavior of the buttons in the web interface:
+
+This are the buttons in the web interface:
+
+![img_buttons.png](data/img_buttons.png)
+
+From left to right: Accept, reject, ignore and undo.
+
+As soon as you have marked all medical terms in the text, click on the green "accept" button. After that, the next sentence is presented to you.
+
+If something is wrong with the proposed sentence, click on the red "reject" button.
+
+Never click the "ignore" button.
+
+If you want to re-edit a previously annotated sentence, click on the undo button to drop the current annotated sentence and go back to the previous one.
+
+## Phase 2) NEL-Annotation:
 
 Second, we have a NEL (Named Entity Linking) or EL (Entity Linking) Phase. 
 In this phase, we select one concept from the given terminology (in this case: KBC) for each highlighted medical term/entity.
