@@ -45,15 +45,12 @@ These are the buttons of the web interface:
 
 ![img_buttons.png](data/img_buttons.png)
 
-From left to right: Accept, reject, ignore and undo.
+Left button: _Accept_, right button _Undo_.
 
 As soon as you have marked all medical terms in the text, click on the green "accept" button. After that, the next sentence is presented to you.
 
-If something is wrong with the proposed sentence, click on the red "reject" button.
-
-Never click the "ignore" button.
-
-If you want to re-edit a previously annotated sentence, click on the undo button to drop the current annotated sentence and go back to the previous one.
+If you want to re-edit previously annotated sentence, click on the undo button to drop the current annotated sentence and go back to the previous one.
+**You can only go back as long as you did not press the save button!**
 
 ## Phase 2) NEL-Annotation:
 
